@@ -6,4 +6,6 @@ if (!isNaN(number1) && !isNaN(number2)) {
     console.log("Módulo: ",number1%number2)
     console.log("Suma: ",number1+number2)
     console.log("Resta: ",number1-number2)
+} else {
+    alert("Uno de los valores ingresados no es número")
 }

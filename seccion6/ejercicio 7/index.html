@@ -1,0 +1,13 @@
+<script>
+	var input
+	var valores = 0
+	var items = 0
+	while (input != 0) {
+		input = parseFloat(prompt("Inserte un numero"))
+		if (input > 0) {
+			items++
+			valores += input
+		}
+	}
+	alert("El promedio es "+(valores/items))
+</script>

@@ -1,0 +1,11 @@
+<script>
+	function menor (arreglo) {
+		var valor = arreglo[0];
+		for (let i = 0; i < arreglo.length; i++) {
+			if (valor > arreglo[i])
+				valor = arreglo[i]
+		}
+		return valor
+	}
+	console.log(menor([3, 5, 6, 10, -1, 23, 2, 3]))
+</script>

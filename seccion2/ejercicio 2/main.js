@@ -6,5 +6,5 @@ if (!isNaN(radio)) {
     console.log("El area es: ", area)
     console.log("El perimetro es: ", perimetro)
 } else {
-    alert()
+    alert("El radio debe ser un número")
 }

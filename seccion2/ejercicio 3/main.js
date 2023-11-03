@@ -1,6 +1,6 @@
-let lado = parseFloat(prompt("Inserte el largo de un lado del cubo"))
-if (!isNaN(lado)) {
-    alert(("El area es "+(lado*lado*lado)))
+let side = parseFloat(prompt("Inserte el largo de un lado del cubo"))
+if (!isNaN(side)) {
+    alert(("El area es "+(side*side*side)))
 } else {
     alert("El lado debe ser un número")
 }

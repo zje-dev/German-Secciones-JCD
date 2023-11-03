@@ -1,17 +1,1 @@
-<script>
-    let n = parseFloat(prompt("Inserte un valor entre 1 y 15"))
-    if (n < 1 || n > 15) {
-        alert("El valor no esta entre 1 y 15")
-    } else {
-        let divisibleotros = false
-        for (let i = 2; i < n; i++) {
-            if (Number.isInteger(n / i))
-                divisibleotros = true
-        }
-        if (!divisibleotros && Number.isInteger(n / 1) && Number.isInteger(n / n)) {
-            alert("Es un numero primo")
-        } else {
-            alert("No es un numero primo")
-        }
-    }
-</script>
+<script src="main.js"></script>

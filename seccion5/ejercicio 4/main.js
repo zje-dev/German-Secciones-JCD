@@ -1,10 +1,10 @@
 let number = parseInt(prompt("Inserte un numero"))
 if (!isNaN(number)) {
-    let factorial = 1
+    let factor = 1
     for (let i = 1; i <= n; i++) {
-        factorial *= i
+        factor *= i
     }
-    alert("El factorial es "+r)
+    alert("El factorial es "+factor)
 } else {
     alert("El valor ingresado no es un número")
 }

@@ -1,4 +1,3 @@
-
 let number = parseInt(prompt("Inserte un valor"))
 if (!isNaN(number)) {
     if (number%5==0) {

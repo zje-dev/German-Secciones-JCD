@@ -6,5 +6,5 @@ if (!isNaN(ratio)) {
     console.log("El area es: ", area)
     console.log("El perimetro es: ", perimeter)
 } else {
-    alert("El radio debe ser un número")
+    console.log("El radio debe ser un número")
 }

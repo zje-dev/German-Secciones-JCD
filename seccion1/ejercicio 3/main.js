@@ -8,5 +8,5 @@ if (!isNaN(amount) && !isNaN(timelimit)) {
         fee += (fee/100)*2.7
     }
 } else {
-    alert("Uno de los valores ingresados no es número")
+    console.log("Uno de los valores ingresados no es número")
 }

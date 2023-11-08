@@ -1,10 +1,10 @@
 let number = parseInt(prompt("Inserte un numero"))
 if (!isNaN(number)) {
-    let factor = 1
-    for (let i = 1; i <= n; i++) {
-        factor *= i
+    var result = 0
+    for (let i = 0; i <= number; i++) {
+        result += (i ** 2)
     }
-    console.log("El factorial es "+factor)
+    console.log("La suma de los cuadrados es "+result)
 } else {
     console.log("El valor ingresado no es un número")
 }

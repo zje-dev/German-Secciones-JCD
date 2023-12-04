@@ -1,3 +1,6 @@
-for (let i = 0; i <= 50; i++) {
-    console.log("3 x "+i+" = "+(3 * i))
+function multiplicaciones () {
+    for (let i = 0; i <= 50; i++) {
+        console.log("3 x "+i+" = "+(3 * i))
+    }
 }
+multiplicaciones()
